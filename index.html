@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body class="home">
+
+    <header>
+        <a tabindex="0" href="#main" class="skip">Skip to Main Content</a>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="currentPage">Home</a></li>
+                <li><a href="fall.html">Fall</a></li>
+                <li><a href="winter.html">Winter</a></li>
+                <li><a href="spring.html">Spring</a></li>
+                <li><a href="summer.html">Summer</a></li>
+                <li><a href="list.html">Your List</a></li>
+            </ul>
+        </nav>
+
+        <h1>Get Ready For Your Next Favorite Thing!</h1>
+
+    </header>
+
+    <main class="main" id="main">
+
+        <h2> What is this place? </h2>
+        <p>
+            Great question! My name is Faith Zimmerman, and I love media in basically all forms. I also love matching my
+            media to the vibe of the season. So this site contains some of my favorite books, movies, tv shows, and
+            musicals for each season.
+        </p>
+
+        <hr>
+
+        <h2> So everything here is set in the season it's categorized as? </h2>
+        <p>
+            Nope! I've placed the pieces of media in the season that I think they're best consumed in. Sometimes that
+            matches the season that they're set in but sometimes it does not. What matters is the vibe, not the literal
+            setting of the story.
+        </p>
+
+        <hr>
+
+        <h2> Are the recommendations family friendly? </h2>
+        <p>
+            To stay true to my own interests and favorite pieces of media, many of the things on this list are not
+            appropiate for kids.
+        </p>
+
+        <hr>
+
+        <h2> Have you read/watched/listened to everything on the site? </h2>
+        <p>
+            Yes! I wouldn't recommend anything I haven't consumed myself.
+        </p>
+
+
+        <hr>
+        <h2> Cool, I'm ready to get started.</h2>
+        <p>
+            Awesome! Click on one of the season buttons below or the navigation links at the top of the page to get into
+            it!
+        </p>
+
+        <hr>
+        <h2>I looked at your list, and I furiously disagree with one of your categorizations. </h2>
+        <p>
+            Ah yes, I thought this might happen. I am not the authority on vibes, and I just categorized them based
+            on
+            my own personal preference. That said, I do have some recourse for you. Go ahead and fill out this form
+            and
+            explain why you think I'm wrong. I will take a look and carefully consider your criticism.
+        </p>
+
+        <form action="https://formspree.io/f/xdkragnp" method="POST">
+            <fieldset>
+                <legend>Tell Me Your Thoughts</legend>
+                <label for="name" class="f1">Name or Alias</label>
+                <br>
+                <input type="text" id="name" name="name" class="f2">
+                <br>
+                <label for="email" class="f3">Email Address</label>
+                <br>
+                <input type="email" id="email" name="email" class="f4">
+                <br>
+                <label for="media" class="f5">What Media Are We Fighting About?</label>
+                <br>
+                <input type="text" id="media" name="media" class="f6">
+                <br>
+                <label for="comment" class="f7">What Do You Think?</label>
+                <br>
+                <textarea id="comment" class="f8" name="comment"></textarea>
+                <br>
+
+                <input type="submit" value="Submit" class="submit">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright Faith Zimmerman <span id="year"></span>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

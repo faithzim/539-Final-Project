@@ -1,0 +1,381 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.skip {
+    position: relative;
+    top: -50px;
+    height: 10px;
+}
+
+.skip:focus {
+    position: relative;
+    top: 10px;
+}
+
+:focus {
+    border: 5px purple solid
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+button:hover,
+.submit:hover {
+    font-weight: bold;
+    border-width: 3px;
+}
+
+nav {
+    justify-self: center;
+    justify-items: center;
+}
+
+nav li {
+    font-weight: normal;
+    padding: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.currentPage {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+section section {
+    margin-bottom: 30px;
+}
+
+.winter {
+    background-image: url(../images/winter.jpg);
+    background-size: cover;
+}
+
+.winter button {
+    background-color: rgb(125, 181, 200);
+}
+
+.spring {
+    /* background-color: rgb(188, 234, 188) */
+    background-image: url(../images/spring.jpg);
+    background-size: cover;
+}
+
+.spring button {
+    background-color: rgb(183, 222, 164)
+}
+
+.summer {
+    background-image: url(../images/summer.jpg);
+    background-size: cover;
+}
+
+.summer button {
+    background-color: rgb(255, 255, 127);
+}
+
+.fall {
+    /* background-color: rgb(221, 149, 121); */
+    background-image: url(../images/fall.jpg);
+    background-size: cover;
+}
+
+.fall button {
+    background-color: rgb(223, 118, 77);
+}
+
+.home,
+.list {
+    background-image: url(../images/paper.avif);
+    background-size: cover;
+}
+
+h1 {
+    font-size: xx-large;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-size: x-large;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    line-height: 115%;
+}
+
+h3,
+legend {
+    line-height: 150%;
+    font-size: larger;
+}
+
+p {
+    font-size: medium;
+    line-height: 130%;
+    font-weight: normal;
+
+}
+
+button {
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(170, 213, 146);
+    border: 2px black solid;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+img {
+    height: 300px;
+    /* width: 100%; */
+    border: 2px black solid;
+    margin: 20px;
+    margin-left: 0%;
+}
+
+.list li {
+    line-height: 30px;
+    font-size: larger;
+}
+
+.list button {
+    width: 100%;
+    height: 50px;
+    background-color: pink;
+    font-size: large;
+    justify-self: center;
+}
+
+.list h2 {
+    padding-bottom: 20px;
+    padding-top: 8px;
+}
+
+.home h2 {
+    padding-bottom: 8px;
+    padding-top: 0%
+}
+
+hr {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border: 1px solid brown;
+    background: brown;
+}
+
+.list p,
+.home p {
+    font-size: medium;
+    line-height: 150%;
+}
+
+fieldset {
+    margin-top: 20px;
+    justify-items: center;
+    margin-bottom: 25px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: medium;
+}
+
+input,
+textarea {
+    width: 275px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    background-color: lightgoldenrodyellow;
+    border: 2px black solid;
+}
+
+.submit {
+    background-color: rgb(180, 219, 231);
+    font-size: medium;
+    height: 40px;
+    width: 285px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.list h2.added {
+    padding-bottom: 0px;
+    padding-top: 30px;
+}
+
+.bottombutton {
+    margin-bottom: 78px;
+}
+
+.list main a:visited {
+    color: blue;
+}
+
+footer {
+    height: 100px;
+    justify-items: center;
+    align-content: center;
+    background-color: black;
+    color: white;
+    font-size: larger;
+}
+
+@media only screen and (min-width: 750px) {
+
+
+    nav li {
+        display: inline;
+    }
+
+    main {
+        display: grid;
+        grid-template-rows: auto auto auto;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    section {
+        display: block;
+        justify-items: normal;
+        grid-row: 2 / span 1;
+        margin-bottom: 5%;
+    }
+
+
+    .books {
+        grid-row: 1 / span 1;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5%;
+    }
+
+    .movies {
+        grid-row: 2 / span 1;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5%;
+    }
+
+    .tv_and_musicals {
+        grid-row: 3 / span 1;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 5%;
+    }
+
+    .books h2,
+    .movies h2 {
+        grid-column: 1 / span 3;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+
+    .tv_and_musicals :first-child {
+        grid-column: 1 / span 1;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+
+    .tv_and_musicals .h2span1 {
+        grid-column: 3 / span 1;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+
+    .tv_and_musicals .h2span2 {
+        grid-column: 2 / span 2;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+
+    fieldset {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 5%;
+        grid-row-gap: 2%;
+    }
+
+    .f1,
+    .f3,
+    .f5 {
+        grid-row: 1 / span 1;
+        width: 100%
+    }
+
+    .f2,
+    .f4,
+    .f6 {
+        grid-row: 2 / span 1;
+        width: 100%
+    }
+
+    .f1,
+    .f2 {
+        grid-column: 1 / span 1;
+        width: 100%
+    }
+
+    .f3,
+    .f4 {
+        grid-column: 2 / span 1;
+        width: 100%
+    }
+
+    .f5,
+    .f6 {
+        grid-column: 3/ span 1;
+        width: 100%
+    }
+
+    .f7 {
+        grid-column: 1 / span 3;
+        grid-row: 3 / span 1;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .f8 {
+        grid-column: 1 / span 3;
+        grid-row: 4 / span 1;
+        width: 100%;
+        margin-top: 4px;
+    }
+
+    .submit {
+        grid-column: 1 / span 3;
+        grid-row: 5 / span 1;
+        width: 100%
+    }
+}

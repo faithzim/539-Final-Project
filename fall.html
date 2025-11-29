@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body class="fall">
+
+    <header>
+        <a tabindex="0" href="#main" class="skip">Skip to Main Content</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fall.html" class="currentPage">Fall</a></li>
+                <li><a href="winter.html">Winter</a></li>
+                <li><a href="spring.html">Spring</a></li>
+                <li><a href="summer.html">Summer</a></li>
+                <li><a href="list.html">Your List</a></li>
+            </ul>
+        </nav>
+
+        <h1>Sweater and Spooky Fall Vibes</h1>
+
+    </header>
+
+    <main class="main" id="main">
+
+        <section class="books">
+            <h2> Books </h2>
+
+            <section>
+                <h3> The Tale of Despereaux<br>by Kate DiCamillo </h3>
+                <img src="images/despereaux.jpg"
+                    alt="Cover of The Tale of Despereaux, a mouse with a needle and red thread running across the floor.">
+                <p>
+                    One of my favorite kids' books, Tale of Despereaux replicates the fairy-tale style with brand new
+                    characters and stories. Read it to your kids or just by yourself and be sent back to a simpler time
+                    when your biggest worry was no larger than a mouse.
+                </p>
+                <button type="button" id="fall1"
+                    onclick="EditListAndLabel('fall1', 'The Tale of Despereaux by Kate DiCamillo (Fall)')">
+                    Add To My List</button>
+            </section>
+
+            <section>
+                <h3> Reign of Shadows<br>by Sophie Jordan </h3>
+                <img src="images/reign.jpg"
+                    alt="Cover of Reign of Shadows, dried flowers and leaves covering the background and spelling out the title.">
+                <p>
+                    This book has fairy tale energy, starting with a very loose rapunzel retelling before diving
+                    headfirst into its own world. The romance is delightful and the monsters are so wonderfully
+                    ridiculous that you have to love them. A short, cute romp with an even more bonkers sequel, this
+                    moody story is perfect for fall.
+                </p>
+                <button type="button" id="fall2"
+                    onclick="EditListAndLabel('fall2', 'Reign of Shadows by Sophie Jordan (Fall)')">Add To My List
+                </button>
+            </section>
+
+            <section>
+                <h3> Fangirl<br>by Rainbow Rowell </h3>
+                <img src="images/fangirl.jpg"
+                    alt="Cover of Fangirl, a girl writing on her laptop and a boy tring to get her attention.">
+                <p>
+                    This is a classic YA romance, but it has stood the test of time. Return, or jump ahead, to your
+                    college years with a soft, feel-good story. Finding yourself and growing is hard, so join Cath as
+                    she fights to figure it out. You won't feel so alone.
+                </p>
+                <button type="button" id="fall3"
+                    onclick="EditListAndLabel('fall3', 'Fangirl by Rainbow Rowell (Fall)')">Add To
+                    My List</button>
+            </section>
+
+        </section>
+
+        <section class="movies">
+            <h2> Movies </h2>
+
+            <section>
+                <h3> Girl vs. Monster </h3>
+                <img src="images/girlvsmonster.jpeg"
+                    alt="Cover of Girl vs. Monster, a girl with steampunk equipment looking toward a zombie's arm.">
+                <p>
+                    This 2010s Disney Channel Original is a bit of a sleeper pick, but I've watched it every fall since
+                    I discovered it. It's so endearing and the perfect level of spooky with beautifully terrible CGI. I
+                    know that there are tons of better Halloween Disney movies out there, but this one have a very
+                    special place in my heart.
+                </p>
+                <button type="button" id="fall4" onclick="EditListAndLabel('fall4', 'Girl vs. Monster (Fall)')">Add To
+                    My
+                    List</button>
+            </section>
+
+            <section>
+                <h3> Twilight </h3>
+                <img src="images/twilight.jpg"
+                    alt="Cover of Twilight, a teenage boy and girl standing close together, the boy looking down at the girl.">
+                <p>
+                    While I like the books way more than the movies, the original Twilight movie has such immaculate
+                    fall vibes that I can't imagine not including it on this list. From the weird blue filter over the
+                    entire movie to the stormy baseball scene, this movie has become synonmous with fall. It's the
+                    perfect mood setter whether you watch it ironically or completely sincerely.
+                </p>
+                <button type="button" id="fall5" onclick="EditListAndLabel('fall5', 'Twilight (Fall)')">Add To My
+                    List</button>
+            </section>
+
+            <section>
+                <h3> Scream 4 </h3>
+                <img src="images/scream.jpg"
+                    alt="Cover of Scream 4, a 4 covering a woman's screaming face and five people below it">
+                <p>
+                    I'm going to cheat with this one a little bit and recommend the entire Scream franchise, but I think
+                    Scream 4 in particular is criminally underrated. It won't pack the same punch if you haven't
+                    seen the others, but, like all the others (except Scream 3, that one's not very good) it is so
+                    clever and fun to watch and theorize through. I love this movie. I love it so much. Please watch it.
+                </p>
+                <button type="button" id="fall6" onclick="EditListAndLabel('fall6', 'Scream 4 (Fall)')">Add To My
+                    List</button>
+            </section>
+
+        </section>
+        <section class="tv_and_musicals">
+            <h2> TV Shows </h2>
+
+            <section>
+                <h3> The Vampire Diaries </h3>
+                <img src="images/vampirediaries.jpg"
+                    alt="Cover of The Vampire Diaries, two teenage boys and one girl standing in the night.">
+                <p>
+                    I love vampires (as you can probably tell) and I also love cringe-inducing young adult media
+                    (also probably obvious). The Vampire Diaries combines these two loves and creates the perfect little
+                    spooky, mostly vibey show. Seasons 1 and 2 are the most fall-coded, but they all make me want to
+                    curl up under a blanket with some apple cider.
+                </p>
+                <button type="button" id="fall7" onclick="EditListAndLabel('fall7', 'The Vampire Diaries (Fall)')">Add
+                    To My
+                    List</button>
+            </section>
+
+            <section>
+                <h3> Abbott Elementary </h3>
+                <img src="images/abbott.jpg" alt="Cover of Abbott Elementary, six adults in a school staff photo.">
+                <p>
+                    This workplace sit-com has made the list through its sheer and undeniable delightfulness. Follow a
+                    crazy cast of wacky teachers and school staff as they try to make the best of a broken system for
+                    their students, deal with the craziness of elementary schoolers, and maybe find love along the way.
+                    It'll take you back to grade school in the best possible way.
+                </p>
+                <button type="button" id="fall8" onclick="EditListAndLabel('fall8', 'Abbott Elementary (Fall)')">Add To
+                    My
+                    List</button>
+            </section>
+
+            <h2 class="h2span1"> Musicals </h2>
+
+            <section>
+                <h3> Come From Away </h3>
+                <img src="images/come.jpg"
+                    alt="Cover of Come From Away, the title with the 'O' in 'From' replaced by the globe and 'best musical' accolades printed above.">
+                <p>
+                    This musical's a bit heavy but is full of gorgeous music and reminds you of the beauty of humanity.
+                    The sets and blocking are so simple and fun, bringing the story to life. The lesser known story of
+                    9/11, a tiny town in Canada accepts thousands of plane passengers when American airspace closes.
+                </p>
+                <button type="button" id="fall9" onclick="EditListAndLabel('fall9', 'Come From Away (Fall)')">Add To My
+                    List</button>
+            </section>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright Faith Zimmerman <span id="year"></span>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

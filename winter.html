@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body class="winter">
+
+    <header>
+        <a tabindex="0" href="#main" class="skip">Skip to Main Content</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fall.html">Fall</a></li>
+                <li><a href="winter.html" class="currentPage">Winter</a></li>
+                <li><a href="spring.html">Spring</a></li>
+                <li><a href="summer.html">Summer</a></li>
+                <li><a href="list.html">Your List</a></li>
+            </ul>
+        </nav>
+
+        <h1>Chilly and Cozy Winter Vibes</h1>
+
+    </header>
+
+    <main class="main" id="main">
+
+        <section class="books">
+            <h2> Books </h2>
+
+            <section>
+                <h3> Beartown<br>by Frederik Backman</h3>
+                <img src="images/beartown.jpg"
+                    alt="Cover of Beartown, boys playing hockey on a frozen lake with hills in the background.">
+                <p>
+                    Beartown is my most favorite novel in the world. Backman's way of writing is so easy to fall into
+                    and heartbreakingly beautiful. Fair warning, this book is pretty heavy, and you should check the
+                    trigger warnings before you start, but if you think you can read it, you should. It feels like
+                    Backman holds your hand and wraps you in a blanket while showing the worst and best parts of life.
+                </p>
+                <button type="button" id="winter1"
+                    onclick="EditListAndLabel('winter1', 'Beartown by Frederik Backman (Winter)')">Add To My
+                    List</button>
+            </section>
+
+            <section>
+                <h3> The Shining<br>by Stephen King</h3>
+                <img src="images/theshining.jpg"
+                    alt="Cover of The Shining, an isolated hotel in the snow with a screaming face.">
+                <p>
+                    I would argue that the movie is more famous than King's original novel, but the novel is so much
+                    better. Like Beartown, it's not for the faint of heart, and check the warnings to protect yourself,
+                    but this novel is not just cheap horror. It sources its scares from the human condition and builds
+                    complex characters you can understand, love, and fear.
+                </p>
+                <button type="button" id="winter2"
+                    onclick="EditListAndLabel('winter2', 'The Shining by Stephen King (Winter)')">Add To My
+                    List</button>
+            </section>
+
+            <section>
+                <h3> Almost, Maine<br>by John Cariani</h3>
+                <img src="images/almost,maine.jpg"
+                    alt="Cover of Almost, Maine, two people sitting on a bench in snowy woods.">
+                <p>
+                    I was introduced to this story through the play version (which I also recommend), but the book is
+                    just as delightful. It's a kooky little story about a kooky little town with all the whimsy you need
+                    for a quick winter read.
+                </p>
+                <button type="button" id="winter3"
+                    onclick="EditListAndLabel('winter3', 'Almost, Maine by John Cariani (Winter)')">Add To My
+                    List</button>
+            </section>
+
+        </section>
+
+        <section class="movies">
+            <h2> Movies </h2>
+
+            <section>
+                <h3> Die Hard </h3>
+                <img src="images/diehard.jpeg" alt="Cover of Die Hard, Bruce Willis in front of an exploding building.">
+                <p>
+                    This classic Christmas movie (and it is a Christmas movie) is always a win. Alan Rickman and Bruce
+                    Willis both knock it out of the park, and it's a must for American cultural education. Just trust
+                    me. Watch it. And bonus recommendation, Die Hard 2: Die Harder also rocks.
+                </p>
+                <button type="button" id="winter4" onclick="EditListAndLabel('winter4', 'Die Hard (Winter)')">Add To My
+                    List</button>
+            </section>
+
+            <section>
+                <h3> The Invisible Man </h3>
+                <img src="images/invisble.jpg"
+                    alt="Cover of The Invisible Man, a woman looking at the camera, with a hand print on the glass behind her.">
+                <p>
+                    This movie is one of the best representations of domestic abuse and terror that I have ever seen.
+                    The cinematography works to emphasize the horror of the unknown, or rather the unseen, placing the
+                    viewer in the main character's position. This is horror as it should be, at it's most evolved.
+                </p>
+                <button type="button" id="winter5"
+                    onclick="EditListAndLabel('winter5', 'The Invisible Man (Winter)')">Add To My List</button>
+            </section>
+
+            <section>
+                <h3> Violent Night </h3>
+                <img src="images/violentnight.jpg"
+                    alt="Cover of Violent Night, Santa with a bloody nose and a flaming candy cane.">
+                <p>
+                    I'm sorry to be a little repetitive with this pick, but I love this movie so much. Like Die Hard,
+                    it's mostly action. When a group of naughty-listers put a little girl in danger, Santa shows up to
+                    deliver a lump of coal straight to the face. This movie is not high-brow; it's not even mid-brow.
+                    It's stupid, but I love it so, so much.
+                </p>
+                <button type="button" id="winter6" onclick="EditListAndLabel('winter6', 'Violent Night (Winter)')">Add
+                    To My
+                    List</button>
+            </section>
+
+        </section>
+
+        <section class="tv_and_musicals">
+            <h2> TV Shows </h2>
+
+            <section>
+                <h3> Once Upon A Time </h3>
+                <img src="images/once.jpg"
+                    alt="Cover of Season 1 of Once Upon A Time, five people above a quaint town.">
+                <p>
+                    This is one of my favorite shows of all time. The premise is that fairy tale characters end up
+                    cursed, living normal lives in Maine, and it's so incredibly whimsical. It's the perfect show to
+                    curl up by the fire and binge during the dark nights.
+                </p>
+                <button type="button" id="winter7"
+                    onclick="EditListAndLabel('winter7', 'Once Upon A Time (Winter)')">Add To My
+                    List</button>
+            </section>
+
+            <h2 class="h2span2"> Musicals </h2>
+
+            <section>
+                <h3> Death Becomes Her </h3>
+                <img src="images/deathbecomesher.jpg"
+                    alt="Cover of Death Becomes Her, two women in fancy dresses, both mortally wounded but standing.">
+                <p>
+                    This musical is absolutely insane. 100% bonkers and worth every minute. It's a little bit spooky but
+                    with all the glitz and glam that I associate with winter. This musical sparkles in the sun like snow
+                    but gets dark early. It's perfect for a night out at the theater or as the soundtrack to your
+                    holiday wrapping. It's based on a movie, but the musical is better.
+                </p>
+                <button type="button" id="winter8"
+                    onclick="EditListAndLabel('winter8', 'Death Becomes Her (Winter)')">Add To My
+                    List</button>
+            </section>
+
+            <section>
+                <h3> The Last Five Years </h3>
+                <img src="images/last5.jpg"
+                    alt="Playbill for The Last Five Years, a man laying in a woman's lap, looking at each other.">
+                <p>
+                    Okay, I promise I love winter, but it seems like most of my winter recs are sad. That's okay though,
+                    I love this story. It's completely sung through with alternating perspectives and timings, telling
+                    the story both through the songs and the very storytelling itself. The movie version is also great
+                    if you can't get to the theater.
+
+                </p>
+                <button type="button" id="winter9"
+                    onclick="EditListAndLabel('winter9', 'The Last Five Years (Winter)')">Add To
+                    My List</button>
+            </section>
+
+        </section>
+    </main>
+    <footer>
+        <p>Copyright Faith Zimmerman <span id="year"></span>
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

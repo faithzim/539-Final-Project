@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body class="list" id="list">
+    <header>
+        <a tabindex="0" href="#main" class="skip">Skip to Main Content</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fall.html">Fall</a></li>
+                <li><a href="winter.html">Winter</a></li>
+                <li><a href="spring.html">Spring</a></li>
+                <li><a href="summer.html">Summer</a></li>
+                <li><a href="list.html" class="currentPage">Your List</a></li>
+            </ul>
+        </nav>
+
+        <h1>Your List</h1>
+
+    </header>
+
+    <main class="main" id="main">
+
+        <h2>Welcome To Your List!</h2>
+        <p> With media recommendations, everyone always says "I'll add it to my list" but we all
+            know there's no list. So I've made one for you! Just click "Add To My List" under any of the books,
+            movies,
+            tv shows, or musicals, and this page will update with your selections. Then you can export or print the
+            page
+            to remember all the awesome stuff you discovered.</p>
+
+
+        <button type="button" id="clear">Clear Your List</button>
+
+        <div id="toPrint">
+            <h2 class="added">Things You've Added</h2>
+            <ul class="List" id="List">
+                <li id="placeholder">Ooops, your list is empty. Go add something and you'll find it here!</li>
+            </ul>
+        </div>
+
+        <button type="button" id="print" class="bottombutton">Print Your List</button>
+    </main>
+    <script src="js/script.js"></script>
+    <script src="js/list.js"></script>
+
+    <footer>
+        <p>Copyright Faith Zimmerman <span id="year"></span>
+    </footer>
+</body>
+
+</html>
