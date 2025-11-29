@@ -38,13 +38,13 @@ window.addEventListener("load", function () {
         let a = this.document.createElement('a');
         a.textContent = list[i];
         if (IDlist[i].substring(0, 3) === "sum") {
-            a.href = "file:///Users/FaithZimmerman/Desktop/School/College/AMDP%20Fall%202025/SI%20539/539_FinalProject/summer.html"
+            a.href = "https://faithzim.github.io/539-Final-Project/summer.html"
         } else if (IDlist[i].substring(0, 3) === "spr") {
-            a.href = "file:///Users/FaithZimmerman/Desktop/School/College/AMDP%20Fall%202025/SI%20539/539_FinalProject/spring.html"
+            a.href = "https://faithzim.github.io/539-Final-Project/spring.html"
         } else if (IDlist[i].substring(0, 3) === "fal") {
-            a.href = "file:///Users/FaithZimmerman/Desktop/School/College/AMDP%20Fall%202025/SI%20539/539_FinalProject/fall.html"
+            a.href = "https://faithzim.github.io/539-Final-Project/fall.html"
         } else if (IDlist[i].substring(0, 3) === "win") {
-            a.href = "file:///Users/FaithZimmerman/Desktop/School/College/AMDP%20Fall%202025/SI%20539/539_FinalProject/winter.html"
+            a.href = "https://faithzim.github.io/539-Final-Project/winter.html"
         } else {
             console.log("Oh, something went wrong with link generation. Look at list.js line 49.")
         }
