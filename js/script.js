@@ -52,6 +52,8 @@ function EditListAndLabel(buttonID, listItem) {
     if (caller.innerText === "Add To My List") {
         // Set Button Value
         caller.innerText = "Remove From My List"
+        // Set Aria Label
+        caller.ariaLabel = "Remove " + listItem.split("(")[0] + " From My List"
 
         // Add Item Name to list
         let list = JSON.parse(sessionStorage.getItem('myList'));
@@ -70,6 +72,8 @@ function EditListAndLabel(buttonID, listItem) {
     else {
         // Set Button Value
         caller.innerText = "Add To My List"
+        // Set Aria Label
+        caller.ariaLabel = "Add " + listItem.split("(")[0] + " To My List"
 
         // Remove Item Name from list
         let list = JSON.parse(sessionStorage.getItem('myList'));
